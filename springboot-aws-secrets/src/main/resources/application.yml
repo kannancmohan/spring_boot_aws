@@ -1,0 +1,13 @@
+spring.config.import: aws-secretsmanager:project-${SPRING_PROFILES_ACTIVE:dev}-be-ct-myservice-api-secret
+# if the secrets cannot be found then app will throw exception and stop ,to prevent this you could use "optional"
+#spring.config.import: optional:aws-secretsmanager:dcp-${SPRING_PROFILES_ACTIVE:dev}-be-ct-accounts-api-secret
+
+#cloud:
+#  aws:
+#    region:
+#      static: eu-central-1
+#    stack:
+#      auto: false
+#    credentials:
+#      access-key:
+#      secret-key:
