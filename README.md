@@ -1,3 +1,3 @@
 # spring_boot_aws
 
-Playground to  check different aws serveice and spring boot integration 
+Playground to  check different aws services and spring boot integration 
